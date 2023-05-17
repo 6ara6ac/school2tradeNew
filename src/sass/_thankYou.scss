@@ -1,0 +1,32 @@
+.thankYou_wrapper{
+    height: 80vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.thankYou_title{
+    text-align: center;
+    font-size: 32px;
+    padding: 20px;
+}
+
+.thankYou_img{
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.demo__data{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    gap: 8px;
+
+    font-size: 16px;
+}
+
+.demo__data a{
+    color: blue;
+    text-decoration: underline;
+}

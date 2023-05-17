@@ -14,10 +14,21 @@
 }
 
 .platform__list-wrapper{
-    padding-top: 46px;
     display: flex;
+    align-items: flex-start;
+
     gap: 60px;
     margin-bottom: 120px;
+    padding-top: 46px;
+}
+
+.platform__list-item{
+    display: flex;
+    gap: 10px;
+}
+
+.platform__list-itemImg{
+    object-fit: none;
 }
 
 .platform__img{

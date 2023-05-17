@@ -44,7 +44,6 @@
   .modal{
   max-width: 728px;
   height: max-content;
-  width: 100%;
 }
 }
 
@@ -179,9 +178,8 @@
   gap: 8px;
 }
 
-.checkbox__documents {
-  color: #89bf19;
-  text-decoration: underline;
+.checkbox {
+  font-size: 16px;
 }
 
 .modal__img{
