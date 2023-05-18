@@ -63,5 +63,5 @@ fetch("https://crm.just2trade.online/_/api/interest/new", requestOptions)
 
 event.preventDefault();
 setTimeout(() => {
-window.location = "/register_ru.html";},2000)
+window.location = "/school2tradeNew/register_ru.html";},2000)
 }

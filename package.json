@@ -5,7 +5,7 @@
   "homepage": "https://6ara6ac.github.io/school2tradeNew",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /school2tradeNew"
+    "build": "parcel build src/*.html --public-url /school2tradeNew/"
   },
   "repository": {
     "type": "git",
