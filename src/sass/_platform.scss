@@ -37,7 +37,7 @@
 }
 
 .platform__img{
-    padding: 35px;
+    padding: 15px;
     background-color: #89BF19;
     border-radius: 50px;
 
@@ -47,13 +47,13 @@
     @media screen and (min-width:1000px) and (max-width:1399px) {
         height: 1000px;
         border-radius: 200px;
-
+        padding: 35px;
     }
 
     @media screen and (min-width:1400px) {
         height: 1300px;
         border-radius: 200px;
-
+        padding: 35px;
     }
 }
 
@@ -102,10 +102,10 @@
     gap: 30px;
     flex-wrap: wrap;
     text-align: center;
+    margin-top: 50px;
 
     @media screen and (min-width:1000px) {
         margin-top: 300px;
-
     }
 }
 
@@ -115,5 +115,9 @@
     justify-items: center;
 
     width: 200px;
-    height: 320px;
+
+    @media screen and (min-width:1000px) {
+        height: 320px;
+
+    }
 }

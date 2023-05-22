@@ -3,6 +3,8 @@
     background-image: url('../assets/heroBackground.png');
 
     @media screen and (max-width:1000px) {
+    background-image: url('../assets/heroMobileBackground.png');
+    background-size: cover;
     display: block;
     }
 }
@@ -30,13 +32,19 @@
 }
 
 .main__title{
-    font-size: 100px;
+    font-size: 72px;
+    line-height: 0.83;
+
     font-weight: 700;
-    line-height: 0.85;
     margin: 0;
     color: #89BF19;
-
     margin-bottom: 44px;
+
+    @media screen and (min-width:1000px) {
+        font-size: 100px;
+        line-height: 0.85;
+
+    }
 }
 
 .hero__list{
