@@ -2,11 +2,17 @@
     background-color: black;
     padding: 50px 160px;
     color: #fff;
+
+    @media screen and (max-width:1000px) {
+        padding: 30px 30px;
+    }
 }
 
 .footer__logo{
     width: 240px;
     height: 70px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .footer__container{
@@ -19,12 +25,13 @@
 
 .footer_descr{
     font-size: 12px;
-    text-align: justify;
     margin-top: 20px;
+    text-align: center;
 
     @media screen and (min-width:1001px) {
         max-width: 400px;
         margin: 0;
+        text-align: justify;
     }
 }
 
@@ -63,10 +70,16 @@ gap:10px
 }
 
 .footer__navigation-list{
-    width: 312px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    grid-gap: 5px;
-    margin: 0;
+    text-align: center;
+    font-size: 32px;
+
+    @media screen and (min-width:1000px) {
+        width: 312px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        grid-gap: 5px;
+        margin: 0;
+        font-size: 20px;
+    }
 }

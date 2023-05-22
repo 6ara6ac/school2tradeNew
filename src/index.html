@@ -22,7 +22,7 @@
           <ul class="header__navigation-list">
             <li class="header__navigation-item"><a href="#learn">Learn</a></li>
             <li class="header__navigation-item"><a href="#benefits">Benefits</a></li>
-            <li class="header__navigation-item"><a href="#platforms">Platform</a></li>
+            <li class="header__navigation-item"><a href="#platform">Platform</a></li>
             <li class="header__navigation-item"><a href="#investplan">Investment plan</a></li>
           </ul>
         </div>
@@ -37,12 +37,44 @@
             <button class="button header__button" data-modal-open>Start learning</button>
         </div>
         </div>
-        </div>
+
+        <div class="mobile__menu" data-menu-button>
+          <div class="mobile__menu-container">
+            <a class="logo mobile" href=""><img class ="logo" src="./assets/logo.svg" width="156px" height="52px" alt="Логотип"></a>
+            <button data-modal-open>Start learning</button>
+  
+              
+              <div class="language-list">
+                <div class="language-list">
+                  <ul>
+                    <li><a class="language-icon icon-active is-active" data-lang="en" class="list-item js-action" data-lang-button>EN &#5121;</a></li>
+                    <li><a class="language-icon icon-inactive is-hidden" data-lang="ru" href="./ru.html" class="list-item active js-action" data-lang="select-language">RU</a></li>
+                  </ul>
+                </div>
+            </div>
+            <button type="button" class="mobile__button" aria-expanded="false" 
+              aria-controls="menu__controls" aria-label="open mobile menu">
+              <img class="navigation__closed" src="./assets/Group 97.svg" alt="Открыть мобильное меню">
+              <img class="navigation__opened" src="./assets/closed.svg" alt="Закрыть мобильное меню">
+            </button>
+          </div>
+          
+    
+            <div class="mobile__navigation" data-menu>
+              <ul class="mobile__navigation-list">
+                <li class="mobile__navigation-item"><a href="#learn">Learn</a></li>
+                <li class="mobile__navigation-item"><a href="#benefits">Benefits</a></li>
+                <li class="mobile__navigation-item"><a href="#platforms">Platform</a></li>
+                <li class="mobile__navigation-item"><a href="#investplan">Investment plan</a></li>
+                
+              </ul>
+            </div>
     </header>
-    <div id="learn" class="hero section">
+    <section id="learn" class="hero section">
+      <div class="hero__desktop">
       <div class="hero__descr-wrap">
       <h1 class="main__title">School<br>2Trade</h1>
-      <p>You will learn how to make money <br>on transactions with:</p>
+      <p class="hero__list-title">You will learn how to make money <br>on transactions with:</p>
       <ul class="hero__list">
         <li class="hero__list-item"><img src="./assets/heroImg/heroList1.svg" alt="">Stocks</li>
         <li class="hero__list-item"><img src="./assets/heroImg/heroList2.svg" alt="">Oil</li>
@@ -58,7 +90,27 @@
       <h2>We teach how to make money on the exchange</h2>
       <p>Alexander Sadovenko - the head of the School2Trade trading school is an expert with more than 10 years of expertise with trading stocks, currencies, cryptocurrencies and futures."In our school we’ve gathered specialists which consistently get income from trading and investments on financial markets: we have what it takes to pass on quality knowledge and experience to our students" (Alexander Sadovenko)</p>
     </div>
-    </div>
+  </div>
+
+
+  <div class="hero__mobile">
+   <img class="mainImg" src="./assets/mainPage.png" alt=""></img>
+   <div class="hero__mobile-wrapper">
+    <h1 class="main__title">School<br>2Trade</h1>
+      <img class="portraitImg" src="./assets/port.png" width="124" height="124" alt="">
+      <h2>We teach how to make money on the exchange</h2>
+      <p>Alexander Sadovenko - the head of the School2Trade trading school is an expert with more than 10 years of expertise with trading stocks, currencies, cryptocurrencies and futures."In our school we’ve gathered specialists which consistently get income from trading and investments on financial markets: we have what it takes to pass on quality knowledge and experience to our students" (Alexander Sadovenko)</p>
+    <p class="hero__list-title">You will learn how to make money <br>on transactions with:</p>
+    <ul class="hero__list">
+      <li class="hero__list-item"><img src="./assets/heroImg/heroList1.svg" alt="">Stocks</li>
+      <li class="hero__list-item"><img src="./assets/heroImg/heroList2.svg" alt="">Oil</li>
+      <li class="hero__list-item"><img src="./assets/heroImg/heroList3.svg" alt="">Currency pairs</li>
+      <li class="hero__list-item"><img src="./assets/heroImg/heroList4.svg" alt="">Cryptocurrencies</li>
+      <li class="hero__list-item"><img src="./assets/heroImg/heroList5.svg" alt="">Gold</li>
+      <li class="hero__list-item"><img src="./assets/heroImg/heroList6.svg" alt="">ETFs</li>
+    </ul>  
+</div>
+    </section>
 
     <div class="benefits section" id="benefits">
       <ul class="benefitsImg__list">
@@ -96,7 +148,7 @@
           <li>After the position is closed by Stop loss or Take profit, a new position is opened</li>
         </ul>
         <p>Such system trading allows you to minimize risks and move step by step towards capital growth and stable profits.</p>
-      <button>Start learning</button>
+      <button data-modal-open>Start learning</button>
         </div>
         <div class="benefits-img">
       <img src="./assets/benefits/stepOne.png" alt="">
@@ -112,7 +164,7 @@
         <br>
         <br>
         Well, so that there are no losses, but there is a profit, we conduct daily streams on trading and investments for our students, on which an experienced trader analyzes: news, statistics, companies, ideas, transactions. Answers your questions. And thanks to these streams, you will learn how to earn money step by step on real transactions by trading stocks, ETFs, options.</p>
-    <button>Start learning</button>
+    <button data-modal-open>Start learning</button>
       </div>
   </div>
   <div class="benefits__step stepThree section">
@@ -124,7 +176,7 @@
       <li>How to trade currencies, oil, gold, gas, wheat, sugar, coffee using futures</li>
       <li>How to become an asset manager and manage your clients' money</li>
     </ul>
-  <button>Start learning</button>
+  <button data-modal-open>Start learning</button>
     </div>
     <div class="benefits-img">
   <img src="./assets/benefits/stepThree.png" alt="">
@@ -321,7 +373,7 @@
       <ul class="footer__navigation-list">
         <li class="header__navigation-item"><a href="#learn">Learn</a></li>
         <li class="header__navigation-item"><a href="#benefits">Benefits</a></li>
-        <li class="header__navigation-item"><a href="#platforms">Platform</a></li>
+        <li class="header__navigation-item"><a href="#platform">Platform</a></li>
         <li class="header__navigation-item"><a href="#investplan">Investment plan</a></li>
       </ul>
       
@@ -382,6 +434,9 @@
   <script type="module" src="./js/lang.js"></script>
   <script type="module" src="./js/modal.js"></script>
   <script type="module" src="./js/form.js"></script>
+  <script type="module" src="./js/mobile-menu.js"></script>
+
+
 
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

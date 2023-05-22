@@ -22,7 +22,7 @@
           <ul class="header__navigation-list">
             <li class="header__navigation-item"><a href="#learn">Обучение</a></li>
             <li class="header__navigation-item"><a href="#benefits">Преимущества</a></li>
-            <li class="header__navigation-item"><a href="#platforms">Платформа</a></li>
+            <li class="header__navigation-item"><a href="#platform">Платформа</a></li>
             <li class="header__navigation-item"><a href="#investplan">Инвестплан</a></li>
           </ul>
         </div>
@@ -38,9 +38,41 @@
             <button class="button header__button" data-modal-open>Начать обучение</button>
         </div>
         </div>
-        </div>
+
+        <div class="mobile__menu" data-menu-button>
+          <div class="mobile__menu-container">
+            <a class="logo mobile" href=""><img class ="logo" src="./assets/logo.svg" width="156px" height="52px" alt="Логотип"></a>
+            <button data-modal-open>Начать обучение</button>
+  
+              
+              <div class="language-list">
+                <div class="language-list">
+                  <ul>
+                    <li><a class="language-icon icon-active is-active" data-lang="ru" class="list-item js-action" data-lang-button>RU &#5121;</a></li>
+                    <li><a class="language-icon icon-inactive is-hidden" data-lang="en" href="./index.html" class="list-item active js-action" data-lang="select-language">EN</a></li>
+                  </ul>
+                </div>
+            </div>
+            <button type="button" class="mobile__button" aria-expanded="false" 
+              aria-controls="menu__controls" aria-label="open mobile menu">
+              <img class="navigation__closed" src="./assets/Group 97.svg" alt="Открыть мобильное меню">
+              <img class="navigation__opened" src="./assets/closed.svg" alt="Закрыть мобильное меню">
+            </button>
+          </div>
+          
+          <div class="mobile__navigation" data-menu>
+            <ul class="mobile__navigation-list">
+              <li class="mobile__navigation-item"><a href="#learn">Обучение</a></li>
+              <li class="mobile__navigation-item"><a href="#benefits">Преимущества</a></li>
+              <li class="mobile__navigation-item"><a href="#platforms">Платформа</a></li>
+              <li class="mobile__navigation-item"><a href="#investplan">Инвестплан</a></li>
+              
+            </ul>
+          </div>
     </header>
-    <div id="learn" class="hero section">
+    
+    <section id="learn" class="hero section">
+      <div class="hero__desktop">
       <div class="hero__descr-wrap">
       <h1 class="main__title">School<br>2Trade</h1>
       <p>Вы научитесь зарабатывать <br>на сделках с:</p>
@@ -59,7 +91,26 @@
       <h2>Мы учим зарабатывать на бирже</h2>
       <p>Александр Садовенко - руководитель школы трейдинга School2Trade, трейдер с опытом торговли акциями, валютами, криптовалютами, фьючерсами, более 10 лет."В нашей школе мы собрали трейдеров, получающих стабильный доход от трейдинга и инвестиций, чтобы они передавали свои знания и опыт нашим ученикам"(Александр Садовенко)</p>
     </div>
-    </div>
+  </div>
+
+    <div class="hero__mobile">
+      <img class="mainImg" src="./assets/mainPage.png" alt=""></img>
+      <div class="hero__mobile-wrapper">
+       <h1 class="main__title">School<br>2Trade</h1>
+         <img class="portraitImg" src="./assets/port.png" width="124" height="124" alt="">
+         <h2>Мы учим зарабатывать на бирже</h2>
+         <p>Александр Садовенко - руководитель школы трейдинга School2Trade, трейдер с опытом торговли акциями, валютами, криптовалютами, фьючерсами, более 10 лет."В нашей школе мы собрали трейдеров, получающих стабильный доход от трейдинга и инвестиций, чтобы они передавали свои знания и опыт нашим ученикам"(Александр Садовенко)</p>
+       <p class="hero__list-title">Вы научитесь зарабатывать <br>на сделках с:</p>
+       <ul class="hero__list">
+         <li class="hero__list-item"><img src="./assets/heroImg/heroList1.svg" alt="">Stocks</li>
+         <li class="hero__list-item"><img src="./assets/heroImg/heroList2.svg" alt="">Oil</li>
+         <li class="hero__list-item"><img src="./assets/heroImg/heroList3.svg" alt="">Currency pairs</li>
+         <li class="hero__list-item"><img src="./assets/heroImg/heroList4.svg" alt="">Cryptocurrencies</li>
+         <li class="hero__list-item"><img src="./assets/heroImg/heroList5.svg" alt="">Gold</li>
+         <li class="hero__list-item"><img src="./assets/heroImg/heroList6.svg" alt="">ETFs</li>
+       </ul>  
+   </div>
+    </section>
 
     <div class="benefits section" id="benefits">
       <ul class="benefitsImg__list">
@@ -97,7 +148,7 @@
           <li>После того как позиция закрывается по Stop loss или Take profit, открывается новая позиция</li>
         </ul>
         <p>Такой системный трейдинг позволяет минимизировать риски и шаг за шагом двигаться к росту капитала и стабильной прибыли.</p>
-      <button>Начать обучение</button>
+      <button data-modal-open>Начать обучение</button>
         </div>
         <div class="benefits-img">
       <img src="./assets/benefits/stepOne.png" alt="">
@@ -113,7 +164,7 @@
         <br>
         <br>
         Ну а чтобы убытков не было , а была прибыль, мы проводим для наших учеников ежедневные стримы по трейдингу и инвестициям, на которых опытный трейдер анализирует: новости, статистику, компании, идеи, сделки. Отвечает на Ваши вопросы. И благодаря этим стримам Вы на реальных сделках и шаг за шагом научитесь зарабатывать, торгуя акциями, ETF, опционами.</p>
-    <button >Начать обучение</button>
+    <button data-modal-open>Начать обучение</button>
       </div>
   </div>
   <div class="benefits__step stepThree section">
@@ -125,7 +176,7 @@
       <li>Как торговать валютами, нефтью, золотом, газом, пшеницей, сахаром, кофе с помощью фьючерсов</li>
       <li>Как стать управляющим активами и управлять деньгами своих клиентов</li>
     </ul>
-  <button>Начать обучение</button>
+  <button data-modal-open>Начать обучение</button>
     </div>
     <div class="benefits-img">
   <img src="./assets/benefits/stepThree.png" alt="">
@@ -324,7 +375,7 @@
       <ul class="footer__navigation-list">
         <li class="header__navigation-item"><a href="#learn">Обучение</a></li>
         <li class="header__navigation-item"><a href="#benefits">Преимущества</a></li>
-        <li class="header__navigation-item"><a href="#platforms">Платформа</a></li>
+        <li class="header__navigation-item"><a href="#platform">Платформа</a></li>
         <li class="header__navigation-item"><a href="#investplan">Инвестплан</a></li>
       </ul>
       
@@ -388,6 +439,8 @@
   <script type="module" src="./js/lang.js"></script>
   <script type="module" src="./js/modal.js"></script>
   <script type="module" src="./js/form_ru.js"></script>
+  <script type="module" src="./js/mobile-menu.js"></script>
+
 
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

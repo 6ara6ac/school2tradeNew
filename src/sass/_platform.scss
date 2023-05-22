@@ -9,17 +9,22 @@
 .platform__list{
     display: grid;
     gap: 15px;
-    width: 50vw;
     color: #D2D2D2;
+    @media screen and (min-width:1000px){
+        width: 50vw;
+    }
 }
 
 .platform__list-wrapper{
-    display: flex;
     align-items: flex-start;
 
     gap: 60px;
     margin-bottom: 120px;
     padding-top: 46px;
+
+    @media screen and (min-width:1000px){
+        display: flex;
+    }
 }
 
 .platform__list-item{
@@ -38,7 +43,10 @@
 
     text-align: center;
     position: relative;
-    height: 1000px;
+
+    @media screen and (min-width:1000px) and (max-width:1399px) {
+        height: 1000px;
+    }
 
     @media screen and (min-width:1400px) {
         height: 1300px;
@@ -57,6 +65,10 @@ margin-right: auto;
 .mockup__img{
     position: absolute;
     left: 100px;
+
+    @media screen and (max-width:1000px) {
+        position: unset;
+    }
 }
 
 .platform__img-title{

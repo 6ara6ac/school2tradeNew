@@ -94,9 +94,15 @@
 /* Form field */
 
 .form{
-  display: grid;
   width: 50%;
+  display: grid;
   padding: 36px;
+
+
+  @media screen and (max-width:1000px) {
+    width: 100%;
+    gap: 8px;
+  }
 }
 
 .form__field {
@@ -200,5 +206,10 @@
 }
 
 .formRectangle{
-  width: 50%;
+  display: none;
+
+  @media screen and (min-width:1000px) {
+    display: block;
+    width: 50%;
+  }
 }

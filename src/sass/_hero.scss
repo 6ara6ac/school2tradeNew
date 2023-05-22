@@ -1,11 +1,32 @@
 .hero{
-    display: flex;
     background-size: contain;
     background-image: url('../assets/heroBackground.png');
+
+    @media screen and (max-width:1000px) {
+    display: block;
+    }
+}
+
+.hero__desktop{
+    display: flex;
+    @media screen and (max-width:1000px) {
+        display: none;
+    }
+}
+
+.hero__mobile{
+    @media screen and (min-width:1001px) {
+        display: none;
+    }
 }
 
 .hero__descr-wrap{
     width: 33vw;
+}
+
+.hero__list-title{
+    font-size: 24px;
+    font-weight: 700;
 }
 
 .main__title{
@@ -38,7 +59,23 @@ width: 33vw;
 
 .mainImg{
     width: 100%;
+    @media screen and (min-width:768px) and (max-width:1000px) {
+        top: -40px;
+        position: absolute;
+        height: 504px;
+        position: absolute;
+        right: 80px;
+        width: 220px;
+    }
 
+    @media screen and (max-width:767px){
+        position: absolute;
+        height: 504px;
+        position: absolute;
+        top: -165px;
+        right: 80px;
+        width: 220px;
+    }
 }
 
 
@@ -53,4 +90,9 @@ width: 33vw;
     border-radius: 100px;
     width: 124px;
     height: 124px;
+}
+
+.hero__mobile-wrapper{
+    position: relative;
+    z-index: 2;
 }

@@ -1,5 +1,9 @@
 .section{
     padding: 58px 160px;
+
+    @media screen and (max-width:1000px) {
+      padding: 50px 30px
+    }
 }
 
 button {

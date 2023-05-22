@@ -2,6 +2,10 @@
     display: flex;
     align-items: center;
     gap: 117px;
+
+    @media screen and (max-width:1000px) {
+        flex-direction: column-reverse;
+    }
 }
 
 
@@ -24,6 +28,10 @@
     background: radial-gradient(circle at 25% bottom, #1D1D1D, #260A0A);
     text-align: end;
 
+    @media screen and (max-width: 1000px) {
+        flex-direction: column;
+        text-align: start;
+    }
 }
 
 .stepThree{
@@ -32,7 +40,8 @@
 }
 
 .benefits-img{
-    width: 50vw;
+    display: grid;
+    justify-content: center;
     width: 100%;
 }
 

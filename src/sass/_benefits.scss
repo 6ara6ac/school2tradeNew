@@ -13,22 +13,29 @@
 }
 
 .benefitsMain__wrapper{
-    display: flex;
+    @media screen and (min-width:1200px) {
+        display: flex;
+    }
 }
 
 .benefitsMain__subwrapper-title{
-    width: 40vw;
-    margin-right: 50px;
-    padding-bottom: 120px;
+    @media screen and (min-width:1001px) {
+        width: 40vw;
+        margin-right: 50px;
+        padding-bottom: 120px;
+    }
 }
 
 .benefitsMain__subwrapper-list{
-    width: 50vw;
-    padding: 31px 44px;
+
+    @media screen and (min-width:1001px) {
+     width: 50vw;
     height: max-content;
+    padding: 31px 44px;
 
     border: 2px solid #1D1F29;
     border-radius: 45px;
+    }
 }
 
 
