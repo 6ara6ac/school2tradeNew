@@ -25,7 +25,11 @@ header{
     // }
 }
 
-
+.mobButton{
+    @media screen and (max-width:470px) {
+        width: 130px;
+    }
+}
 
 .logo {
     height: 49px;
