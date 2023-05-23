@@ -17,7 +17,7 @@ header{
     }
 
     @media screen and (min-width:1000px) and (max-width:1199px) {
-        padding: 0 50px;
+        padding: 0 20px;
     }
 
     // @media screen and (min-width:1200px) {
@@ -105,11 +105,12 @@ header{
     margin: 0;
 }
 .button.header__button.demo{
-color: #89bf19;
-background: #111111;
-margin-left: auto;
-margin-right: auto;
-width: 139px;
+    display: block;
+    color: #89bf19;
+    background: #111111;
+    margin-left: auto;
+    margin-right: auto;
+    width: 139px;
 }
 
 

@@ -10,14 +10,22 @@
 }
 
 .hero__desktop{
-    display: flex;
-    @media screen and (max-width:1000px) {
-        display: none;
+    display: none;
+
+    @media screen and (min-width:1000px) and (max-width: 1200px) {
+        display: flex;
+        flex-wrap: wrap;
     }
+
+    @media screen and (min-width:1201px)  {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
 }
 
 .hero__mobile{
-    @media screen and (min-width:1001px) {
+    @media screen and (min-width:1000px) {
         display: none;
     }
 }
@@ -91,6 +99,10 @@ width: 33vw;
     margin-top: auto;
     width: 33vw;
     margin-left: 30px;
+
+    @media screen and (min-width:1001px) and (max-width: 1200px) {
+        width: 100%;
+    }
 }
 
 .portraitImg{
@@ -98,6 +110,7 @@ width: 33vw;
     border-radius: 100px;
     width: 124px;
     height: 124px;
+    margin-bottom: 20px;
 }
 
 .hero__mobile-wrapper{

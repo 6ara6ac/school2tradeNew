@@ -41,7 +41,7 @@
         <div class="mobile__menu" data-menu-button>
           <div class="mobile__menu-container">
             <a class="logo mobile" href=""><img class ="logo" src="./assets/logo.svg" width="156px" height="52px" alt="Логотип"></a>
-            <button class="mobileButton" data-modal-open>Start<br> learning</button>
+            <button class="mobButton" data-modal-open>Start<br> learning</button>
   
               
               <div class="language-list">
@@ -383,54 +383,60 @@
     </div>
   </div>
 
-  <div class="backdrop is-hidden" data-modal>
-    <div class="modal">
-      <button class="modal__close" type="button" data-modal-close>X
-      </button>
-      <form class="form">
-        <h3 class="modal__title">Sign up for free online training with an experienced trader</h3>
-        <div class="form__field">
-          <label class="form__label" for="user-name">Name</label>
-          <div class="form__inner">
-            <input class="form__input" type="text" id="user-name" name="user-name" placeholder="Your name"/>
-            <svg class="form__icon" width="18" height="18">
-              <use href="./assets/icons.svg#icon-vector-5"></use>
-            </svg>
-          </div>
-        </div>
-        <div class="form__field">
-          <label class="form__label" for="user-tel">Phone</label>
-          <div class="form__inner">
-            <input class="form__input" type="tel" data-tel-input id="user-tel" name="user-tel" placeholder="Mobile number">
-          </div>
-          <p class="error__phone">Please enter a valid phone</p>
-        </div>
-        <div class="form__field">
-          <label class="form__label" for="userEmail">Email</label>
-          <div class="form__inner">
-            <input class="form__input" type="email" id="userEmail" name="user-email" value="" placeholder="Your e-mail address">
-            <svg class="form__icon" width="18" height="18">
-              <use href="./assets/icons.svg#icon-vector-8"></use>
-            </svg>
-          </div>
-          <p class="error__mail">Please enter a valid e-mail address</p>
-        </div>
-
-        <label class="checkbox" for="terms-conditions">
-          <input class="checkbox__input" type="checkbox" id="terms-conditions" name="terms-conditions">
-          <!-- <svg class="checkbox__icon-box" width="15" height="15">
-            <use class="checkbox__icon-uncheck" href="./images/icons.svg#icon-vector-6"></use>
-            <use class="checkbox__icon-check" href="./images/icons.svg#icon-icon-check"></use>
-          </svg> -->
-          I agree to the processing of personal data        
-        </label>
-        <button disabled class="modal__button button"  type="submit" target="_self">Sign up</button></a>
-      </form>
-      <img class="formRectangle" src="./assets/formRectangle.png" alt="">
-    </div>
-  </div>
   
 </footer>
+<div class="demo__button">
+  <button class="button header__button demo bottom" data-modal-open>Demo</button>
+</div>
+
+
+<div class="backdrop is-hidden" data-modal>
+  <div class="modal">
+    <button class="modal__close" type="button" data-modal-close>X
+    </button>
+    <form class="form">
+      <h3 class="modal__title">Sign up for free online training with an experienced trader</h3>
+      <div class="form__field">
+        <label class="form__label" for="user-name">Name</label>
+        <div class="form__inner">
+          <input class="form__input" type="text" id="user-name" name="user-name" placeholder="Your name"/>
+          <svg class="form__icon" width="18" height="18">
+            <use href="./assets/icons.svg#icon-vector-5"></use>
+          </svg>
+        </div>
+      </div>
+      <div class="form__field">
+        <label class="form__label" for="user-tel">Phone</label>
+        <div class="form__inner">
+          <input class="form__input" type="tel" data-tel-input id="user-tel" name="user-tel" placeholder="Mobile number">
+        </div>
+        <p class="error__phone">Please enter a valid phone</p>
+      </div>
+      <div class="form__field">
+        <label class="form__label" for="userEmail">Email</label>
+        <div class="form__inner">
+          <input class="form__input" type="email" id="userEmail" name="user-email" value="" placeholder="Your e-mail address">
+          <svg class="form__icon" width="18" height="18">
+            <use href="./assets/icons.svg#icon-vector-8"></use>
+          </svg>
+        </div>
+        <p class="error__mail">Please enter a valid e-mail address</p>
+      </div>
+
+      <label class="checkbox" for="terms-conditions">
+        <input class="checkbox__input" type="checkbox" id="terms-conditions" name="terms-conditions">
+        <!-- <svg class="checkbox__icon-box" width="15" height="15">
+          <use class="checkbox__icon-uncheck" href="./images/icons.svg#icon-vector-6"></use>
+          <use class="checkbox__icon-check" href="./images/icons.svg#icon-icon-check"></use>
+        </svg> -->
+        I agree to the processing of personal data        
+      </label>
+      <button disabled class="modal__button button"  type="submit" target="_self">Sign up</button></a>
+    </form>
+    <img class="formRectangle" src="./assets/formRectangle.png" alt="">
+  </div>
+</div>
+
   <script type="module" src="./js/lang.js"></script>
   <script type="module" src="./js/modal.js"></script>
   <script type="module" src="./js/form.js"></script>

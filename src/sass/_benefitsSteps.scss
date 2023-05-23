@@ -3,7 +3,7 @@
     align-items: center;
     gap: 117px;
 
-    @media screen and (max-width:1000px) {
+    @media screen and (max-width:1200px) {
         flex-direction: column-reverse;
         gap: 22px;
     }
@@ -29,14 +29,13 @@
     background: radial-gradient(circle at 25% bottom, #1D1D1D, #260A0A);
     text-align: end;
 
-    @media screen and (max-width: 1000px) {
+    @media screen and (max-width: 1200px) {
         flex-direction: column;
         text-align: start;
     }
 }
 
 .stepThree{
-    gap: 117px;
     background: radial-gradient(circle at 25% bottom,#241027, #1D1D1D);
 }
 

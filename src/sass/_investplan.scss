@@ -117,7 +117,7 @@ margin: 20px 0;
     justify-content: space-around;
     flex-direction: column-reverse;
 
-    @media screen and (min-width:1001px) {
+    @media screen and (min-width:1201px) {
             flex-direction: inherit;
     }
 }
@@ -130,7 +130,7 @@ margin: 20px 0;
     margin-bottom: 20px;
     height: max-content;
 
-    @media screen and (min-width:1001px) {
+    @media screen and (min-width:1201px) {
         max-width: 50%;
         margin: 0;
 }
@@ -163,6 +163,7 @@ margin: 20px 0;
     @media screen and (min-width:1000px) {
         display: flex;
         justify-content: space-between;
+        align-items: center;
         gap: 60px;
     }
 }
