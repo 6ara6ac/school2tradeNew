@@ -1,7 +1,12 @@
 .benefitsImg__list{
-    display: flex;
+    display: grid;
     gap: 28px;
     margin-bottom: 67px;
+    justify-content: center;
+
+    @media screen and (min-width:900px) {
+        grid-auto-flow: column;
+    }
 }
 
 .benefitsImg__list-item.styled{

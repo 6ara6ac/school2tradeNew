@@ -65,6 +65,7 @@ margin: 20px 0;
     padding: 10px;
     border-radius: 40px;
     margin-top: 10px;
+    
 }
 
 .submit-button{
@@ -79,11 +80,14 @@ margin: 20px 0;
     line-height: 1.15;
     cursor: pointer;
     margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #calcForm{
+    display: grid;
+    justify-content: center;
  @media screen and (min-width:1000px) {
-    width: 50%;
 
  }
 }
