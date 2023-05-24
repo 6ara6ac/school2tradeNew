@@ -85,19 +85,22 @@
 
     color: #000;
     margin-bottom: 30px;
+    margin-top: 40px;
 
     @media screen and (min-width:1000px){
         font-size: 60px;
     line-height: 0.88;
+    margin-top: 30px;
     }
 }
 
 .platform__img-descr{
     color: #000;
+    
 }
 
 .platform__benefits-list{
-    display: flex;
+    display: none;
     justify-content: center;
     gap: 30px;
     flex-wrap: wrap;
@@ -106,6 +109,7 @@
 
     @media screen and (min-width:1000px) {
         margin-top: 300px;
+        display: flex;
     }
 }
 
@@ -120,4 +124,32 @@
         height: 320px;
 
     }
+}
+
+.swiper{
+    margin-bottom: 50px;
+
+    @media screen and (min-width:1000px) {
+        display: none;
+      }
+}
+
+
+
+.slider-wrapper{
+    max-height: max-content;
+    margin-left: 10px;
+    border-radius: 40px;
+    text-align: center;
+    margin-top: auto;
+    padding: 20px;
+    font-size: 16px;
+}
+
+.swiper-img{
+    max-width: 150px;
+    height: 200px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
