@@ -2,10 +2,10 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://6ara6ac.github.io/school2tradeNew",
+  "homepage": "https://school2trade.com/",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /school2tradeNew/"
+    "build": "parcel build src/*.html --public-url https://school2trade.com/"
   },
   "repository": {
     "type": "git",
